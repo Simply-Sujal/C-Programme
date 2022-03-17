@@ -1,5 +1,5 @@
 
-// Here in this we will write the code for the area of circle
+// Here in this we will write the code for the area of circle.
 
 #include<stdio.h>
 
