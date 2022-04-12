@@ -9,7 +9,7 @@ int main(){
     scanf("%d" , &num);
 
     if(num % 2 == 0){ // this will decide even or odd
-        printf("The number is Even");
+        printf("The number is Even \n");
         if (num % 4 == 0)
         {
             printf("Yes , it is also divisible by 4");
@@ -17,7 +17,7 @@ int main(){
             printf("Sorry , it is not divisible by 4");
         }
     }else{
-        printf("The number is Odd");
+        printf("The number is Odd \n");
         if (num % 3 == 0)
         {
             printf("Yes , it is divisible by 3");

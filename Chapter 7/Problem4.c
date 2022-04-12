@@ -9,9 +9,40 @@
 #include <stdio.h>
 
 int main(){
-    int s1;
-    printf("Type your marks : ");
+    int s1,s2,s3,s4;
+    printf("Type your marks in English : ");
     scanf("%d" , &s1);
 
+    printf("Type your marks in Maths : ");
+    scanf("%d",&s2);
+
+    printf("Type your marks in C Programming : ");
+    scanf("%d" , &s3);
+
+    printf("Type your marks in Biology : ");
+    scanf("%d" , &s4);
+
+    int avg = (s1 + s2 + s3 + s4)/40;
+    if (avg >= 9)
+    {
+        printf("Your grade is : O");
+    }
+    else if (avg >= 8)
+    {
+        printf("Your grade is : E");
+    }
+    else if (avg >= 7)
+    {
+        printf("Your grade is : A");
+    }
+    else if (avg >= 6)
+    {
+        printf("Your grade is : B");
+    }
+    else if (avg < 6)
+    {
+        printf("You are Fail.");
+    }
     
+    return 0;
 }
