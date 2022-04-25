@@ -19,7 +19,7 @@ int main()
     int duplicates[1000];
     int duplicateLastIndex = 0;
     
-    // find the occurences of each element
+    
     for (int i = 0; i < 10; i++) 
     {
         int count = 0;
@@ -32,7 +32,7 @@ int main()
         }
         if (count >= 1) 
         {
-            // check if we already have this element
+            
             int found = 0;
             for (int k = 0; k < duplicateLastIndex; k++) 
             {
@@ -42,7 +42,7 @@ int main()
                 }
             }
 
-            // if we don't have this element, add it to the duplicates array
+            
             if (found == 0) 
             {
                 duplicates[duplicateLastIndex] = array[i];
