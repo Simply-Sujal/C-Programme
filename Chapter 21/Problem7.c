@@ -6,7 +6,7 @@ int SumEven(int num1, int num2);
 
 int main()
 {
-    int num1=2,num2;
+    int num1 =2, num2;
     printf("Enter number in which you want to add even number :");
     scanf("%d",&num2);
     printf("Sum of all Even number is : %d",SumEven(num1,num2));
@@ -17,5 +17,5 @@ int SumEven(int num1, int num2)
    if(num1>num2)
     return 0;
 
-    return num1+SumEven(num1+2,num2);
+    return num1 + SumEven(num1+2,num2);
 }
